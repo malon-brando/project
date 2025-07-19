@@ -1,0 +1,21 @@
+data={'名字':'蔡徐坤','年龄':'23','性别':'男'}
+
+#class类
+#def自定义函数
+#self就是这个函数本身
+
+#列表 list，可以更改，可以为不同的数据类型，索引从0开始，
+#   list1=['键盘‘，'手机',23]
+#   增加列表  list1.append('联想thinkbook16+ 5060')
+#   删除列表  list1.remove(23)  使用remove时，该元素需在列表中
+#   列表其他操作，max(list1)  min(list1)得到列表中最大，最小值，sorted(price1)对列表从小到达排序
+
+#字典用于储存键值对，用花括号{}表示，字典是可变的
+
+class Phone:
+    def __init__(self,os,number):
+        self.os=os
+        self.number=number
+phone1=Phone('ios',18)
+print(phone1.os)
+print(phone1.number)
