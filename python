@@ -1,0 +1,10 @@
+data={'名字':'蔡徐坤','年龄':'23','性别':'男'}
+
+#class类
+#def自定义函数
+
+class People:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+cai=People.__init__()
